@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="660" viewBox="0 0 1200 660" role="img" aria-labelledby="t">
-  <title id="t">History explanation, before and after. You ask: why was Julius Caesar killed? A typical AI answer is a list of dates that never says why. MAYA starts with the why: senators believed he was making himself a king. Then a cause-and-effect chain: he wins a civil war against Pompey, is named dictator for life, senators lose their power, and he is stabbed on 15 March 44 BC.</title>
+  <title id="t">History explanation, before and after. You ask: why was Julius Caesar killed? A typical AI answer is a list of dates that never says why. MAYA starts with the why: senators believed he was turning himself into a king. Then a cause-and-effect chain: he wins a civil war after crossing the Rubicon in 49 BC, is named dictator for life, senators lose real power, and he is stabbed on the Ides of March, 44 BC.</title>
   <style>text{font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif}</style>
 
   <rect width="1200" height="660" rx="32" fill="#FFF7EC"/>
@@ -41,8 +41,8 @@
   <rect x="647" y="206" width="481" height="306" rx="18" fill="#ffffff" stroke="#2EC4A6" stroke-width="3"/>
   <rect x="671" y="226" width="160" height="32" rx="16" fill="#2EC4A6"/>
   <text x="751" y="248" font-size="16" font-weight="800" fill="#ffffff" text-anchor="middle" letter-spacing="1">THE WHY FIRST</text>
-  <text x="671" y="292" font-size="21" font-weight="900" fill="#1F1B3A">Senators believed he was making</text>
-  <text x="671" y="318" font-size="21" font-weight="900" fill="#1F1B3A">himself a king.</text>
+  <text x="671" y="292" font-size="21" font-weight="900" fill="#1F1B3A">Senators believed he was turning</text>
+  <text x="671" y="318" font-size="21" font-weight="900" fill="#1F1B3A">himself into a king.</text>
 
   <!-- cause chain -->
   <path d="M686 356 V476" stroke="#2EC4A6" stroke-width="4"/>
@@ -53,10 +53,10 @@
     <circle cx="686" cy="476" r="13" fill="#FF6B5B"/><text x="686" y="481">4</text>
   </g>
   <g font-size="19" fill="#1F1B3A">
-    <text x="710" y="363">Wins a civil war against Pompey</text>
+    <text x="710" y="363">Wins a civil war (Rubicon, 49 BC)</text>
     <text x="710" y="403">Named dictator for life</text>
-    <text x="710" y="443">Senators lose their power</text>
-    <text x="710" y="483" font-weight="800">Stabbed on 15 March 44 BC</text>
+    <text x="710" y="443">Senators lose real power</text>
+    <text x="710" y="483" font-weight="800">Stabbed on the Ides of March, 44 BC</text>
   </g>
 
   <!-- happy blob -->

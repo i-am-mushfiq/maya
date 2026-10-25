@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="t">
-  <title id="t">MAYA reads the room. Start: "Where do I even begin?" gets the first idea with one example. Quick: "tl;dr" gets 2 to 4 sentences. Deep: "go deeper" gets every step justified. Practice: "quiz me" gets one problem at a time. Research: a pasted paper gets claims versus evidence. Resume: "where were we?" picks up where you left off.</title>
+  <title id="t">MAYA reads the room. Start: "Where do I start with ML?" gets the first idea with one example. Quick: "tl;dr: what's backprop?" gets 2 to 4 sentences. Deep: "Rome's fall. Go deeper." gets every step justified. Practice: "Quiz me on transformers" gets one problem at a time. Research: a pasted paper gets claims versus evidence. Resume: "Where were we on RNNs?" picks up where you left off.</title>
   <style>
     text{font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif}
     .name{font-size:28px;font-weight:900;fill:#1F1B3A;letter-spacing:1px}
@@ -17,7 +17,7 @@
     <circle cx="58" cy="60" r="34" fill="#FF6B5B"/>
     <path d="M49 44 L74 60 L49 76 z" fill="#ffffff"/>
     <text x="108" y="70" class="name">START</text>
-    <text x="30" y="140" class="say" fill="#E0483A">"Where do I even begin?"</text>
+    <text x="30" y="140" class="say" fill="#E0483A">"Where do I start with ML?"</text>
     <text x="30" y="184" class="res">The first idea in a few sentences,</text>
     <text x="30" y="212" class="res">with one example. Nothing else yet.</text>
   </g>
@@ -29,7 +29,7 @@
     <circle cx="58" cy="60" r="34" fill="#FFC93C"/>
     <path d="M64 36 L44 64 L58 64 L52 86 L74 56 L60 56 z" fill="#1F1B3A"/>
     <text x="108" y="70" class="name">QUICK</text>
-    <text x="30" y="140" class="say" fill="#C98A00">"tl;dr pls"</text>
+    <text x="30" y="140" class="say" fill="#C98A00">"tl;dr: what's backprop?"</text>
     <text x="30" y="184" class="res">Two to four sentences.</text>
     <text x="30" y="212" class="res">Important caveats kept.</text>
   </g>
@@ -43,7 +43,7 @@
     <path d="M38 61 L58 71 L78 61" stroke="#ffffff" stroke-width="4" fill="none" stroke-linejoin="round"/>
     <path d="M38 71 L58 81 L78 71" stroke="#ffffff" stroke-width="4" fill="none" stroke-linejoin="round"/>
     <text x="108" y="70" class="name">DEEP</text>
-    <text x="30" y="140" class="say" fill="#6243E8">"Go deeper."</text>
+    <text x="30" y="140" class="say" fill="#6243E8">"Rome's fall. Go deeper."</text>
     <text x="30" y="184" class="res">Every step shown and justified,</text>
     <text x="30" y="212" class="res">with check-ins to re-find your place.</text>
   </g>
@@ -56,7 +56,7 @@
     <circle cx="58" cy="60" r="20" fill="none" stroke="#ffffff" stroke-width="5"/>
     <circle cx="58" cy="60" r="7" fill="#ffffff"/>
     <text x="108" y="70" class="name">PRACTICE</text>
-    <text x="30" y="140" class="say" fill="#1A9E85">"Quiz me."</text>
+    <text x="30" y="140" class="say" fill="#1A9E85">"Quiz me on transformers."</text>
     <text x="30" y="184" class="res">One problem at a time.</text>
     <text x="30" y="212" class="res">Real feedback, no fake praise.</text>
   </g>
@@ -81,7 +81,7 @@
     <circle cx="58" cy="60" r="34" fill="#FF7EB6"/>
     <path d="M46 40 H70 V82 L58 72 L46 82 z" fill="#ffffff"/>
     <text x="108" y="70" class="name">RESUME</text>
-    <text x="30" y="140" class="say" fill="#E0559A">"Where were we?"</text>
+    <text x="30" y="140" class="say" fill="#E0559A">"Where were we on RNNs?"</text>
     <text x="30" y="184" class="res">What you already got, then</text>
     <text x="30" y="212" class="res">straight on. No restarting.</text>
   </g>
