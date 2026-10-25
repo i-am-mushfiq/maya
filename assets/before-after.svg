@@ -1,31 +1,31 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="660" viewBox="0 0 1200 660" role="img" aria-labelledby="t">
-  <title id="t">Before and after. You ask: what's a database index? A typical AI answer opens with history, lists every type of index and buries the answer at the bottom. MAYA answers in the first line: a sorted lookup list that lets the database jump straight to the rows you want, then an analogy, the trade-off and one next step.</title>
+  <title id="t">Technical explanation, before and after. You ask: what is an RNN? A typical AI answer opens with the history of neural networks, lists every variant and buries the answer at the bottom. MAYA answers in the first line: a neural network that reads a sequence one step at a time, carrying a running memory called the hidden state. Then the catch, and one next step.</title>
   <style>text{font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif}</style>
 
   <rect width="1200" height="660" rx="32" fill="#FFF7EC"/>
 
   <!-- user message -->
-  <rect x="330" y="34" width="540" height="72" rx="36" fill="#1F1B3A"/>
-  <text x="600" y="79" font-size="24" font-weight="700" fill="#FFF7EC" text-anchor="middle">"What's a database index?"</text>
+  <rect x="380" y="34" width="440" height="72" rx="36" fill="#1F1B3A"/>
+  <text x="600" y="79" font-size="24" font-weight="700" fill="#FFF7EC" text-anchor="middle">"What is an RNN?"</text>
 
   <!-- LEFT: typical answer -->
   <rect x="40" y="136" width="545" height="494" rx="26" fill="#EDEAF5"/>
   <text x="72" y="184" font-size="26" font-weight="900" fill="#8A84A3">TYPICAL AI ANSWER</text>
   <rect x="72" y="206" width="481" height="306" rx="18" fill="#ffffff" stroke="#C9C4DB" stroke-width="2"/>
-  <text x="96" y="242" font-size="19" font-weight="800" fill="#4A4566">Great question! Databases have a long</text>
-  <text x="96" y="266" font-size="19" font-weight="800" fill="#4A4566">and fascinating history...</text>
+  <text x="96" y="242" font-size="19" font-weight="800" fill="#4A4566">Great question! Neural networks were</text>
+  <text x="96" y="266" font-size="19" font-weight="800" fill="#4A4566">first inspired by the human brain...</text>
   <g fill="#D8D4E6">
     <rect x="96" y="282" width="430" height="10" rx="5"/>
     <rect x="96" y="300" width="400" height="10" rx="5"/>
     <rect x="96" y="318" width="350" height="10" rx="5"/>
   </g>
-  <text x="96" y="354" font-size="19" font-weight="800" fill="#4A4566">There are many kinds: B-tree, hash,</text>
-  <text x="96" y="378" font-size="19" font-weight="800" fill="#4A4566">bitmap, clustered, non-clustered...</text>
+  <text x="96" y="354" font-size="19" font-weight="800" fill="#4A4566">There are many variants: LSTM, GRU,</text>
+  <text x="96" y="378" font-size="19" font-weight="800" fill="#4A4566">bidirectional, Elman, Jordan...</text>
   <g fill="#D8D4E6">
     <rect x="96" y="394" width="420" height="10" rx="5"/>
     <rect x="96" y="412" width="380" height="10" rx="5"/>
   </g>
-  <text x="96" y="448" font-size="19" font-weight="800" fill="#4A4566">...so basically, it makes lookups faster.</text>
+  <text x="96" y="448" font-size="19" font-weight="800" fill="#4A4566">...so basically, it handles sequences.</text>
   <text x="96" y="490" font-size="20" font-weight="900" fill="#FF6B5B">Let me know if you have any questions!</text>
 
   <!-- dizzy blob -->
@@ -42,13 +42,13 @@
   <rect x="647" y="206" width="481" height="306" rx="18" fill="#ffffff" stroke="#2EC4A6" stroke-width="3"/>
   <rect x="671" y="226" width="150" height="32" rx="16" fill="#2EC4A6"/>
   <text x="746" y="248" font-size="16" font-weight="800" fill="#ffffff" text-anchor="middle" letter-spacing="1">ANSWER FIRST</text>
-  <text x="671" y="292" font-size="21" font-weight="900" fill="#1F1B3A">A sorted lookup list that lets the</text>
-  <text x="671" y="318" font-size="21" font-weight="900" fill="#1F1B3A">database jump straight to your rows.</text>
-  <text x="671" y="358" font-size="20" fill="#1F1B3A">Like a textbook's index: look up the</text>
-  <text x="671" y="384" font-size="20" fill="#1F1B3A">word, get the page, skip the reading.</text>
-  <text x="671" y="424" font-size="20" fill="#1F1B3A"><tspan font-weight="800">The catch:</tspan> faster reads, slightly</text>
-  <text x="671" y="450" font-size="20" fill="#1F1B3A">slower writes, extra storage.</text>
-  <text x="671" y="490" font-size="18" font-weight="700" fill="#1A9E85">Next: when does it get used? Want it?</text>
+  <text x="671" y="292" font-size="21" font-weight="900" fill="#1F1B3A">A neural network that reads a</text>
+  <text x="671" y="318" font-size="21" font-weight="900" fill="#1F1B3A">sequence one step at a time.</text>
+  <text x="671" y="358" font-size="20" fill="#1F1B3A">It carries a running memory, the</text>
+  <text x="671" y="384" font-size="20" fill="#1F1B3A">hidden state, from step to step.</text>
+  <text x="671" y="424" font-size="20" fill="#1F1B3A"><tspan font-weight="800">The catch:</tspan> it forgets over long</text>
+  <text x="671" y="450" font-size="20" fill="#1F1B3A">distances. LSTMs were built to fix that.</text>
+  <text x="671" y="490" font-size="18" font-weight="700" fill="#1A9E85">Next: how LSTM gates work. Want it?</text>
 
   <!-- happy blob -->
   <circle cx="1075" cy="568" r="38" fill="#2EC4A6"/>
