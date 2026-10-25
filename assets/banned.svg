@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img" aria-labelledby="t">
+  <title id="t">Things MAYA will never say to you: Great question! You've got this! Does that make sense? Here's a 5-day plan. Just focus harder. Let me know if you have any questions!</title>
+  <style>
+    text{font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif}
+    .q{font-size:27px;font-weight:800;fill:#1F1B3A}
+    .x{stroke:#FF4D3D;stroke-width:5;fill:none;stroke-linecap:round;opacity:.8}
+  </style>
+
+  <rect width="1200" height="470" rx="32" fill="#FFF7EC"/>
+  <text x="600" y="70" font-size="38" font-weight="900" fill="#1F1B3A" text-anchor="middle">Things MAYA will <tspan fill="#FF4D3D">never</tspan> say to you</text>
+
+  <!-- row 1 -->
+  <g transform="rotate(-3 225 175)">
+    <rect x="70" y="118" width="330" height="116" rx="10" fill="#FFE27A"/>
+    <text x="235" y="186" class="q" text-anchor="middle">"Great question!"</text>
+    <path class="x" d="M96 178 q70 -8 140 2 t140 -4"/>
+  </g>
+  <g transform="rotate(2 600 175)">
+    <rect x="435" y="118" width="330" height="116" rx="10" fill="#FFC3DE"/>
+    <text x="600" y="186" class="q" text-anchor="middle">"You've got this!!"</text>
+    <path class="x" d="M461 180 q70 6 140 -2 t140 4"/>
+  </g>
+  <g transform="rotate(-2 965 175)">
+    <rect x="800" y="118" width="330" height="116" rx="10" fill="#BFE6FF"/>
+    <text x="965" y="170" class="q" text-anchor="middle">"Does that</text>
+    <text x="965" y="204" class="q" text-anchor="middle">make sense?"</text>
+    <path class="x" d="M876 161 q45 -4 90 1 t90 -1"/>
+    <path class="x" d="M866 195 q50 4 100 -1 t100 1"/>
+  </g>
+
+  <!-- row 2 -->
+  <g transform="rotate(2 225 335)">
+    <rect x="70" y="278" width="330" height="116" rx="10" fill="#C6F2E5"/>
+    <text x="235" y="330" class="q" text-anchor="middle">"Here's a</text>
+    <text x="235" y="364" class="q" text-anchor="middle">5-day plan..."</text>
+    <path class="x" d="M166 321 q35 3 70 -1 t70 1"/>
+    <path class="x" d="M146 355 q45 -3 90 1 t90 -1"/>
+  </g>
+  <g transform="rotate(-2 600 335)">
+    <rect x="435" y="278" width="330" height="116" rx="10" fill="#E2D9FF"/>
+    <text x="600" y="346" class="q" text-anchor="middle">"Just focus harder."</text>
+    <path class="x" d="M461 338 q70 -6 140 2 t140 -2"/>
+  </g>
+  <g transform="rotate(3 965 335)">
+    <rect x="800" y="278" width="330" height="116" rx="10" fill="#FFD3C7"/>
+    <text x="965" y="330" class="q" text-anchor="middle">"Let me know if you</text>
+    <text x="965" y="364" class="q" text-anchor="middle">have any questions!"</text>
+    <path class="x" d="M836 321 q65 3 130 -1 t130 1"/>
+    <path class="x" d="M826 355 q70 -3 140 1 t140 -1"/>
+  </g>
+
+  <!-- NOPE stamp -->
+  <g transform="rotate(-14 1060 412)">
+    <rect x="990" y="386" width="140" height="52" rx="10" fill="#FFF7EC" stroke="#FF4D3D" stroke-width="5"/>
+    <text x="1060" y="424" font-size="32" font-weight="900" fill="#FF4D3D" text-anchor="middle" letter-spacing="4">NOPE</text>
+  </g>
+</svg>

@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="t">
+  <title id="t">MAYA reads the room. Start: "I can't start" gets one tiny step. Quick: "tl;dr" gets 2 to 4 sentences. Deep: "go deeper" gets every step justified. Practice: "quiz me" gets one problem at a time. Research: a pasted paper gets claims versus evidence. Resume: "where were we?" picks up where you left off.</title>
+  <style>
+    text{font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif}
+    .name{font-size:28px;font-weight:900;fill:#1F1B3A;letter-spacing:1px}
+    .say{font-size:23px;font-weight:700;font-style:italic}
+    .res{font-size:19px;fill:#4A4566}
+  </style>
+
+  <rect width="1200" height="680" rx="32" fill="#FFF7EC"/>
+  <text x="600" y="72" font-size="38" font-weight="900" fill="#1F1B3A" text-anchor="middle">It reads the room. You just talk.</text>
+
+  <!-- card 1: START -->
+  <g transform="translate(30 110)">
+    <rect x="8" y="10" width="360" height="250" rx="24" fill="#1F1B3A" opacity=".10"/>
+    <rect width="360" height="250" rx="24" fill="#ffffff" stroke="#1F1B3A" stroke-width="3"/>
+    <circle cx="58" cy="60" r="34" fill="#FF6B5B"/>
+    <path d="M49 44 L74 60 L49 76 z" fill="#ffffff"/>
+    <text x="108" y="70" class="name">START</text>
+    <text x="30" y="140" class="say" fill="#E0483A">"I can't start."</text>
+    <text x="30" y="184" class="res">One tiny step you can do</text>
+    <text x="30" y="212" class="res">in about five minutes.</text>
+  </g>
+
+  <!-- card 2: QUICK -->
+  <g transform="translate(420 110)">
+    <rect x="8" y="10" width="360" height="250" rx="24" fill="#1F1B3A" opacity=".10"/>
+    <rect width="360" height="250" rx="24" fill="#ffffff" stroke="#1F1B3A" stroke-width="3"/>
+    <circle cx="58" cy="60" r="34" fill="#FFC93C"/>
+    <path d="M64 36 L44 64 L58 64 L52 86 L74 56 L60 56 z" fill="#1F1B3A"/>
+    <text x="108" y="70" class="name">QUICK</text>
+    <text x="30" y="140" class="say" fill="#C98A00">"tl;dr pls"</text>
+    <text x="30" y="184" class="res">Two to four sentences.</text>
+    <text x="30" y="212" class="res">Important caveats kept.</text>
+  </g>
+
+  <!-- card 3: DEEP -->
+  <g transform="translate(810 110)">
+    <rect x="8" y="10" width="360" height="250" rx="24" fill="#1F1B3A" opacity=".10"/>
+    <rect width="360" height="250" rx="24" fill="#ffffff" stroke="#1F1B3A" stroke-width="3"/>
+    <circle cx="58" cy="60" r="34" fill="#7B5CFA"/>
+    <path d="M58 40 L80 51 L58 62 L36 51 z" fill="#ffffff"/>
+    <path d="M38 61 L58 71 L78 61" stroke="#ffffff" stroke-width="4" fill="none" stroke-linejoin="round"/>
+    <path d="M38 71 L58 81 L78 71" stroke="#ffffff" stroke-width="4" fill="none" stroke-linejoin="round"/>
+    <text x="108" y="70" class="name">DEEP</text>
+    <text x="30" y="140" class="say" fill="#6243E8">"Go deeper."</text>
+    <text x="30" y="184" class="res">Every step shown and justified,</text>
+    <text x="30" y="212" class="res">with check-ins to re-find your place.</text>
+  </g>
+
+  <!-- card 4: PRACTICE -->
+  <g transform="translate(30 400)">
+    <rect x="8" y="10" width="360" height="250" rx="24" fill="#1F1B3A" opacity=".10"/>
+    <rect width="360" height="250" rx="24" fill="#ffffff" stroke="#1F1B3A" stroke-width="3"/>
+    <circle cx="58" cy="60" r="34" fill="#2EC4A6"/>
+    <circle cx="58" cy="60" r="20" fill="none" stroke="#ffffff" stroke-width="5"/>
+    <circle cx="58" cy="60" r="7" fill="#ffffff"/>
+    <text x="108" y="70" class="name">PRACTICE</text>
+    <text x="30" y="140" class="say" fill="#1A9E85">"Quiz me."</text>
+    <text x="30" y="184" class="res">One problem at a time.</text>
+    <text x="30" y="212" class="res">Real feedback, no fake praise.</text>
+  </g>
+
+  <!-- card 5: RESEARCH -->
+  <g transform="translate(420 400)">
+    <rect x="8" y="10" width="360" height="250" rx="24" fill="#1F1B3A" opacity=".10"/>
+    <rect width="360" height="250" rx="24" fill="#ffffff" stroke="#1F1B3A" stroke-width="3"/>
+    <circle cx="58" cy="60" r="34" fill="#4D9DE0"/>
+    <circle cx="53" cy="55" r="14" fill="none" stroke="#ffffff" stroke-width="5"/>
+    <path d="M63 65 L76 78" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+    <text x="108" y="70" class="name">RESEARCH</text>
+    <text x="30" y="140" class="say" fill="#2F7FC4">*pastes a paper*</text>
+    <text x="30" y="184" class="res">What they claim vs. what the</text>
+    <text x="30" y="212" class="res">evidence shows. Then the verdict.</text>
+  </g>
+
+  <!-- card 6: RESUME -->
+  <g transform="translate(810 400)">
+    <rect x="8" y="10" width="360" height="250" rx="24" fill="#1F1B3A" opacity=".10"/>
+    <rect width="360" height="250" rx="24" fill="#ffffff" stroke="#1F1B3A" stroke-width="3"/>
+    <circle cx="58" cy="60" r="34" fill="#FF7EB6"/>
+    <path d="M46 40 H70 V82 L58 72 L46 82 z" fill="#ffffff"/>
+    <text x="108" y="70" class="name">RESUME</text>
+    <text x="30" y="140" class="say" fill="#E0559A">"Where were we?"</text>
+    <text x="30" y="184" class="res">What you already got, then</text>
+    <text x="30" y="212" class="res">straight on. No restarting.</text>
+  </g>
+</svg>

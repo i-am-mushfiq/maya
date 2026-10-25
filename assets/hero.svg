@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="560" viewBox="0 0 1280 560" role="img" aria-labelledby="t">
+  <title id="t">MAYA: Making ADHD Your Ally. Explanations your brain can actually start, follow, and come back to.</title>
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#1F1B3A"/>
+    </marker>
+  </defs>
+  <style>text{font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif}</style>
+
+  <rect width="1280" height="560" rx="32" fill="#FFF7EC"/>
+
+  <!-- confetti -->
+  <circle cx="70" cy="64" r="9" fill="#FFC93C"/>
+  <circle cx="612" cy="70" r="7" fill="#2EC4A6"/>
+  <circle cx="560" cy="500" r="10" fill="#FF6B5B"/>
+  <circle cx="40" cy="470" r="6" fill="#7B5CFA"/>
+  <rect x="470" y="96" width="16" height="16" rx="3" fill="#4D9DE0" transform="rotate(20 478 104)"/>
+  <rect x="640" y="440" width="14" height="14" rx="3" fill="#FFC93C" transform="rotate(-25 647 447)"/>
+  <path d="M150 520 q12 -16 24 0 t24 0 t24 0" stroke="#2EC4A6" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M520 30 q10 -12 20 0 t20 0" stroke="#FF7EB6" stroke-width="5" fill="none" stroke-linecap="round"/>
+
+  <!-- wordmark -->
+  <text x="78" y="238" font-size="156" font-weight="900" fill="#1F1B3A" letter-spacing="-3">MAYA</text>
+  <path d="M86 262 q60 -18 120 0 t120 0 t120 0" stroke="#FF6B5B" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <text x="84" y="322" font-size="40" font-weight="800" fill="#1F1B3A"><tspan fill="#FF6B5B">M</tspan>aking <tspan fill="#FF6B5B">A</tspan>DHD <tspan fill="#FF6B5B">Y</tspan>our <tspan fill="#FF6B5B">A</tspan>lly</text>
+  <text x="84" y="384" font-size="28" fill="#4A4566">Explanations your brain can actually</text>
+  <text x="84" y="422" font-size="28" fill="#4A4566"><tspan font-weight="800" fill="#1F1B3A">start</tspan>, <tspan font-weight="800" fill="#1F1B3A">follow</tspan>, and <tspan font-weight="800" fill="#1F1B3A">come back to</tspan>.</text>
+  <rect x="84" y="452" width="270" height="52" rx="26" fill="#1F1B3A"/>
+  <text x="219" y="486" font-size="22" font-weight="700" fill="#FFF7EC" text-anchor="middle">A skill for Claude</text>
+
+  <!-- chaos: the usual overload -->
+  <g>
+    <rect x="790" y="58" width="92" height="60" rx="9" fill="#FFC93C" transform="rotate(-14 836 88)"/>
+    <rect x="884" y="40" width="92" height="60" rx="9" fill="#4D9DE0" transform="rotate(9 930 70)"/>
+    <rect x="980" y="64" width="92" height="60" rx="9" fill="#FF7EB6" transform="rotate(-6 1026 94)"/>
+    <rect x="1074" y="44" width="92" height="60" rx="9" fill="#2EC4A6" transform="rotate(16 1120 74)"/>
+    <rect x="840" y="128" width="92" height="60" rx="9" fill="#FF6B5B" transform="rotate(12 886 158)"/>
+    <rect x="938" y="136" width="92" height="60" rx="9" fill="#7B5CFA" transform="rotate(-18 984 166)"/>
+    <rect x="1040" y="128" width="92" height="60" rx="9" fill="#FFC93C" transform="rotate(7 1086 158)"/>
+    <g fill="#ffffff" opacity=".75">
+      <rect x="804" y="76" width="56" height="7" rx="3.5" transform="rotate(-14 836 88)"/>
+      <rect x="804" y="92" width="38" height="7" rx="3.5" transform="rotate(-14 836 88)"/>
+      <rect x="898" y="58" width="56" height="7" rx="3.5" transform="rotate(9 930 70)"/>
+      <rect x="994" y="82" width="56" height="7" rx="3.5" transform="rotate(-6 1026 94)"/>
+      <rect x="994" y="98" width="30" height="7" rx="3.5" transform="rotate(-6 1026 94)"/>
+      <rect x="1088" y="62" width="56" height="7" rx="3.5" transform="rotate(16 1120 74)"/>
+      <rect x="854" y="146" width="56" height="7" rx="3.5" transform="rotate(12 886 158)"/>
+      <rect x="952" y="154" width="56" height="7" rx="3.5" transform="rotate(-18 984 166)"/>
+      <rect x="1054" y="146" width="56" height="7" rx="3.5" transform="rotate(7 1086 158)"/>
+    </g>
+    <text x="712" y="70" font-size="20" font-weight="700" fill="#8A84A3" transform="rotate(-8 740 64)">47 tabs</text>
+    <text x="1150" y="210" font-size="20" font-weight="700" fill="#8A84A3" transform="rotate(6 1180 204)">wall of text</text>
+    <text x="700" y="176" font-size="20" font-weight="700" fill="#8A84A3" transform="rotate(-4 740 170)">wait, where</text>
+    <text x="712" y="200" font-size="20" font-weight="700" fill="#8A84A3" transform="rotate(-4 740 194)">was I??</text>
+  </g>
+
+  <!-- arrow from chaos to calm -->
+  <path d="M960 206 C 930 230, 990 244, 958 268" stroke="#1F1B3A" stroke-width="4" fill="none" stroke-dasharray="2 9" stroke-linecap="round" marker-end="url(#ah)"/>
+
+  <!-- the one card -->
+  <rect x="752" y="292" width="410" height="196" rx="22" fill="#1F1B3A" opacity=".12"/>
+  <rect x="742" y="282" width="410" height="196" rx="22" fill="#ffffff" stroke="#1F1B3A" stroke-width="3"/>
+  <rect x="770" y="306" width="104" height="36" rx="18" fill="#2EC4A6"/>
+  <text x="822" y="331" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle" letter-spacing="1">STEP 1</text>
+  <text x="770" y="388" font-size="30" font-weight="900" fill="#1F1B3A">One small thing.</text>
+  <text x="770" y="424" font-size="22" fill="#4A4566">Five minutes. Nothing else yet.</text>
+  <rect x="770" y="442" width="22" height="22" rx="6" fill="none" stroke="#2EC4A6" stroke-width="3"/>
+  <path d="M775 453 l5 5 l9 -11" stroke="#2EC4A6" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="802" y="460" font-size="18" font-weight="800" fill="#2EC4A6">totally doable</text>
+
+  <!-- mascot -->
+  <g>
+    <path d="M1148 444 q-30 -10 -38 -40" stroke="#7B5CFA" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <circle cx="1110" cy="400" r="9" fill="#7B5CFA"/>
+    <circle cx="1196" cy="466" r="56" fill="#7B5CFA"/>
+    <ellipse cx="1176" cy="456" rx="10" ry="12" fill="#ffffff"/>
+    <ellipse cx="1214" cy="456" rx="10" ry="12" fill="#ffffff"/>
+    <circle cx="1178" cy="459" r="5" fill="#1F1B3A"/>
+    <circle cx="1216" cy="459" r="5" fill="#1F1B3A"/>
+    <circle cx="1162" cy="482" r="7" fill="#FF7EB6" opacity=".8"/>
+    <circle cx="1230" cy="482" r="7" fill="#FF7EB6" opacity=".8"/>
+    <path d="M1182 484 q14 14 28 0" stroke="#1F1B3A" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M1196 398 l5 12 l13 1 l-10 8 l4 13 l-12 -7 l-12 7 l4 -13 l-10 -8 l13 -1 z" fill="#FFC93C" transform="translate(0 -14)"/>
+  </g>
+</svg>
