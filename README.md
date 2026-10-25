@@ -99,9 +99,9 @@ There are no settings or commands, and you never pick a mode. If you start out f
 
 ## Explain it for someone else
 
-Say *"explain this to my manager"*, *"for my mom"* or *"like I'm 10"* and MAYA changes the vocabulary, the examples and what it emphasizes. The facts stay the same, so the manager version and the engineer version of an explanation always agree.
+Say *"explain this to my manager"*, *"for my mom"* or *"for a 10-year-old"* and MAYA changes the vocabulary, the examples and what it emphasizes. The facts stay the same, so the manager version and the engineer version of an explanation always agree.
 
-Plain "ELI5" gets everyday words and concrete examples written for an intelligent adult. Baby talk is saved for when the reader really is a kid.
+Ask for the simple version and you get everyday words and concrete examples, written for an intelligent adult. Baby talk is saved for when the reader really is a kid.
 
 ## Things MAYA will never say to you
 
