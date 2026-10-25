@@ -1,54 +1,54 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="660" viewBox="0 0 1200 660" role="img" aria-labelledby="t">
-  <title id="t">Before and after. You say: I have an exam Friday and I can't even start. A typical AI answer is a wall of text with a five-day plan and a pep talk. MAYA gives one step: for the next five minutes, find out what Friday's exam covers.</title>
+  <title id="t">Before and after. You ask: what's a database index? A typical AI answer opens with history, lists every type of index and buries the answer at the bottom. MAYA answers in the first line: a sorted lookup list that lets the database jump straight to the rows you want, then an analogy, the trade-off and one next step.</title>
   <style>text{font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif}</style>
 
   <rect width="1200" height="660" rx="32" fill="#FFF7EC"/>
 
   <!-- user message -->
-  <rect x="300" y="34" width="600" height="72" rx="36" fill="#1F1B3A"/>
-  <text x="600" y="79" font-size="24" font-weight="700" fill="#FFF7EC" text-anchor="middle">"Exam on Friday. I can't even start."</text>
+  <rect x="330" y="34" width="540" height="72" rx="36" fill="#1F1B3A"/>
+  <text x="600" y="79" font-size="24" font-weight="700" fill="#FFF7EC" text-anchor="middle">"What's a database index?"</text>
 
   <!-- LEFT: typical answer -->
   <rect x="40" y="136" width="545" height="494" rx="26" fill="#EDEAF5"/>
   <text x="72" y="184" font-size="26" font-weight="900" fill="#8A84A3">TYPICAL AI ANSWER</text>
   <rect x="72" y="206" width="481" height="306" rx="18" fill="#ffffff" stroke="#C9C4DB" stroke-width="2"/>
-  <text x="96" y="242" font-size="19" font-weight="800" fill="#4A4566">Here's a 5-day plan: Day 1, first law...</text>
+  <text x="96" y="242" font-size="19" font-weight="800" fill="#4A4566">Great question! Databases have a long</text>
+  <text x="96" y="266" font-size="19" font-weight="800" fill="#4A4566">and fascinating history...</text>
   <g fill="#D8D4E6">
-    <rect x="96" y="258" width="430" height="10" rx="5"/>
-    <rect x="96" y="276" width="400" height="10" rx="5"/>
-    <rect x="96" y="294" width="420" height="10" rx="5"/>
-    <rect x="96" y="312" width="350" height="10" rx="5"/>
+    <rect x="96" y="282" width="430" height="10" rx="5"/>
+    <rect x="96" y="300" width="400" height="10" rx="5"/>
+    <rect x="96" y="318" width="350" height="10" rx="5"/>
   </g>
-  <text x="96" y="348" font-size="19" font-weight="800" fill="#4A4566">Day 2: entropy. Day 3: cycles. Day 4...</text>
+  <text x="96" y="354" font-size="19" font-weight="800" fill="#4A4566">There are many kinds: B-tree, hash,</text>
+  <text x="96" y="378" font-size="19" font-weight="800" fill="#4A4566">bitmap, clustered, non-clustered...</text>
   <g fill="#D8D4E6">
-    <rect x="96" y="364" width="420" height="10" rx="5"/>
-    <rect x="96" y="382" width="430" height="10" rx="5"/>
-    <rect x="96" y="400" width="380" height="10" rx="5"/>
+    <rect x="96" y="394" width="420" height="10" rx="5"/>
+    <rect x="96" y="412" width="380" height="10" rx="5"/>
   </g>
-  <text x="96" y="436" font-size="19" font-weight="800" fill="#4A4566">Tips: try Pomodoro! Remove distractions!</text>
-  <g fill="#D8D4E6">
-    <rect x="96" y="452" width="410" height="10" rx="5"/>
-  </g>
-  <text x="96" y="492" font-size="21" font-weight="900" fill="#FF6B5B">You've got this!!!</text>
+  <text x="96" y="448" font-size="19" font-weight="800" fill="#4A4566">...so basically, it makes lookups faster.</text>
+  <text x="96" y="490" font-size="20" font-weight="900" fill="#FF6B5B">Let me know if you have any questions!</text>
 
   <!-- dizzy blob -->
   <circle cx="500" cy="568" r="38" fill="#B9B3CF"/>
   <path d="M480 560 m-7 0 a7 7 0 1 0 7 -7 a4 4 0 1 0 -4 4" stroke="#1F1B3A" stroke-width="3" fill="none" stroke-linecap="round"/>
   <path d="M520 560 m-7 0 a7 7 0 1 0 7 -7 a4 4 0 1 0 -4 4" stroke="#1F1B3A" stroke-width="3" fill="none" stroke-linecap="round"/>
   <path d="M488 586 q6 -6 12 0 t12 0" stroke="#1F1B3A" stroke-width="3" fill="none" stroke-linecap="round"/>
-  <text x="72" y="560" font-size="24" font-weight="900" fill="#1F1B3A">Bigger task.</text>
-  <text x="72" y="592" font-size="24" font-weight="900" fill="#1F1B3A">Nothing done yet.</text>
+  <text x="72" y="560" font-size="24" font-weight="900" fill="#1F1B3A">The answer is hiding</text>
+  <text x="72" y="592" font-size="24" font-weight="900" fill="#1F1B3A">at the bottom.</text>
 
   <!-- RIGHT: MAYA -->
   <rect x="615" y="136" width="545" height="494" rx="26" fill="#DFF6EF"/>
   <text x="647" y="184" font-size="26" font-weight="900" fill="#1A9E85">WITH MAYA</text>
-  <rect x="647" y="206" width="481" height="222" rx="18" fill="#ffffff" stroke="#2EC4A6" stroke-width="3"/>
-  <rect x="671" y="228" width="100" height="32" rx="16" fill="#2EC4A6"/>
-  <text x="721" y="250" font-size="16" font-weight="800" fill="#ffffff" text-anchor="middle" letter-spacing="1">STEP 1</text>
-  <text x="671" y="296" font-size="22" font-weight="900" fill="#1F1B3A">For the next five minutes:</text>
-  <text x="671" y="326" font-size="22" fill="#1F1B3A">find out what Friday's exam covers.</text>
-  <text x="671" y="356" font-size="22" fill="#1F1B3A">Topic names only. Nothing else yet.</text>
-  <text x="671" y="400" font-size="19" font-weight="700" fill="#1A9E85">Send me the list and we'll plan from it.</text>
+  <rect x="647" y="206" width="481" height="306" rx="18" fill="#ffffff" stroke="#2EC4A6" stroke-width="3"/>
+  <rect x="671" y="226" width="150" height="32" rx="16" fill="#2EC4A6"/>
+  <text x="746" y="248" font-size="16" font-weight="800" fill="#ffffff" text-anchor="middle" letter-spacing="1">ANSWER FIRST</text>
+  <text x="671" y="292" font-size="21" font-weight="900" fill="#1F1B3A">A sorted lookup list that lets the</text>
+  <text x="671" y="318" font-size="21" font-weight="900" fill="#1F1B3A">database jump straight to your rows.</text>
+  <text x="671" y="358" font-size="20" fill="#1F1B3A">Like a textbook's index: look up the</text>
+  <text x="671" y="384" font-size="20" fill="#1F1B3A">word, get the page, skip the reading.</text>
+  <text x="671" y="424" font-size="20" fill="#1F1B3A"><tspan font-weight="800">The catch:</tspan> faster reads, slightly</text>
+  <text x="671" y="450" font-size="20" fill="#1F1B3A">slower writes, extra storage.</text>
+  <text x="671" y="490" font-size="18" font-weight="700" fill="#1A9E85">Next: when does it get used? Want it?</text>
 
   <!-- happy blob -->
   <circle cx="1075" cy="568" r="38" fill="#2EC4A6"/>
@@ -58,6 +58,6 @@
   <circle cx="1089" cy="562" r="3.5" fill="#1F1B3A"/>
   <path d="M1063 578 q12 12 24 0" stroke="#1F1B3A" stroke-width="3.5" fill="none" stroke-linecap="round"/>
   <path d="M1112 528 l10 10 l20 -24" stroke="#1A9E85" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="647" y="560" font-size="24" font-weight="900" fill="#1F1B3A">One step.</text>
-  <text x="647" y="592" font-size="24" font-weight="900" fill="#1F1B3A">Already moving.</text>
+  <text x="647" y="560" font-size="24" font-weight="900" fill="#1F1B3A">The answer is</text>
+  <text x="647" y="592" font-size="24" font-weight="900" fill="#1F1B3A">the first line.</text>
 </svg>

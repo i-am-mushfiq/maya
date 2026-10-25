@@ -23,17 +23,18 @@ The facts and the math stay intact, and the full depth is there whenever you ask
 ## Sound familiar?
 
 - You open the topic. You see the wall. You close the tab.
-- You ask a yes-or-no question and get a history lesson first.
+- You ask a simple question and get a history lesson first.
 - You read the same paragraph three times and nothing sticks.
+- The explanation used a term three paragraphs ago, and now you have to scroll back to find out what it meant.
+- You say you didn't get it, and the same explanation comes back in slightly different words.
 - You get up for water and come back to... what were we doing?
-- You ask for help and get a 5-day plan plus a pep talk, when what you needed was one thing to do right now.
 
-Getting stuck has more than one cause. Sometimes the topic is too big, sometimes a piece of background is missing, sometimes the material is unclear, and sometimes you're just tired. MAYA reads which one it is from what you say. A tired brain gets one small piece and a clear place to stop. A missing basic gets taught in a few sentences before the explanation carries on. You won't get a lecture about focus.
+When an explanation doesn't click, MAYA works out where it lost you. It might ask *"Which part lost you: the sorting, the pointers, or the trade-off?"*, check whether a piece of background is missing and teach it in a few sentences, or switch to a worked example or a counterexample. It doesn't repeat the same words louder. And if your brain is fried, you get one small piece and a clear place to stop.
 
 ## See the difference
 
 <p align="center">
-  <img src="assets/before-after.svg" alt="Before and after. A typical AI answer to 'I can't start studying' is a wall of text with a five-day plan and a pep talk. MAYA gives one five-minute step." width="100%">
+  <img src="assets/before-after.svg" alt="Before and after. Asked what a database index is, a typical AI answer opens with history, lists every type and buries the answer at the bottom. MAYA answers in the first line, then gives an analogy, the trade-off and one next step." width="100%">
 </p>
 
 <details>
@@ -41,17 +42,34 @@ Getting stuck has more than one cause. Sometimes the topic is too big, sometimes
 
 <br>
 
-> **You:** I have a thermodynamics exam Friday and I can't even start. It's too much.
+> **You:** What's a database index?
 >
-> **MAYA:** For the next five minutes: find out what Friday's exam actually covers. Nothing else yet.
+> **MAYA:** A database index is a sorted lookup list that lets the database jump straight to the rows you want instead of checking every row.
 >
-> Open the syllabus, review sheet or course page and list the topics the exam includes, names only. Don't open the textbook yet.
+> It works like the index at the back of a textbook: to find "photosynthesis" you look it up alphabetically and get a page number, instead of reading every page. An index on an `email` column keeps the emails sorted, each with a pointer to its row, so finding one email among millions takes a handful of steps instead of millions of checks.
 >
-> If there's no list, write down the chapter titles and mark each one "know", "shaky" or "no idea". Guesses are fine.
+> The trade-off: every insert or update must also update the index, so indexes speed up reads, slow down writes a little, and take extra storage.
 >
-> Send me that list and we'll turn it into a short plan for the days you have, starting with the topic the others build on. That's the whole first step.
+> Next: how the database decides whether to use an index at all. Want it?
 
-MAYA still makes a plan. It makes it after the first step, out of what that step turned up.
+The answer is in the first sentence. The analogy maps the real mechanism, and the example has real numbers. The catch comes before you can walk away with the wrong idea, and the answer ends with one next step instead of a menu.
+
+</details>
+
+<details>
+<summary><b>And when you get it wrong</b></summary>
+
+<br>
+
+> **You:** So p = 0.03 means there's a 3% chance the null hypothesis is true?
+>
+> **MAYA:** No. This is the most common misreading of p-values, so it is worth pinning down.
+>
+> **Why it fails:** a p-value is calculated by assuming the null hypothesis is true, so it cannot also be the probability that the null is true.
+>
+> **What it actually says:** if the null were true, data at least this extreme would turn up about 3% of the time.
+
+MAYA names the wrong idea, shows where it breaks, and gives you the right one, without a "great try!" first. The full answer, with a coin-flip example, is in [`references/examples.md`](references/examples.md).
 
 </details>
 
@@ -119,7 +137,7 @@ Now go get that water. (Then come back.)
 
 Talk to Claude the way you normally would. Some things to try:
 
-- *"I have a presentation tomorrow and I can't start."*
+- *"I keep getting lost in thermodynamics. Where do I even begin?"*
 - *"tl;dr what's an APR"*
 - *"Why am I getting this error?"* + paste it in
 - *"Explain Kubernetes to my manager"*

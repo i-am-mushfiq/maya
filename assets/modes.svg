@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="t">
-  <title id="t">MAYA reads the room. Start: "I can't start" gets one tiny step. Quick: "tl;dr" gets 2 to 4 sentences. Deep: "go deeper" gets every step justified. Practice: "quiz me" gets one problem at a time. Research: a pasted paper gets claims versus evidence. Resume: "where were we?" picks up where you left off.</title>
+  <title id="t">MAYA reads the room. Start: "Where do I even begin?" gets the first idea with one example. Quick: "tl;dr" gets 2 to 4 sentences. Deep: "go deeper" gets every step justified. Practice: "quiz me" gets one problem at a time. Research: a pasted paper gets claims versus evidence. Resume: "where were we?" picks up where you left off.</title>
   <style>
     text{font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif}
     .name{font-size:28px;font-weight:900;fill:#1F1B3A;letter-spacing:1px}
@@ -17,9 +17,9 @@
     <circle cx="58" cy="60" r="34" fill="#FF6B5B"/>
     <path d="M49 44 L74 60 L49 76 z" fill="#ffffff"/>
     <text x="108" y="70" class="name">START</text>
-    <text x="30" y="140" class="say" fill="#E0483A">"I can't start."</text>
-    <text x="30" y="184" class="res">One tiny step you can do</text>
-    <text x="30" y="212" class="res">in about five minutes.</text>
+    <text x="30" y="140" class="say" fill="#E0483A">"Where do I even begin?"</text>
+    <text x="30" y="184" class="res">The first idea in a few sentences,</text>
+    <text x="30" y="212" class="res">with one example. Nothing else yet.</text>
   </g>
 
   <!-- card 2: QUICK -->
