@@ -12,31 +12,25 @@
   <b>Most explanations are written for a brain with one tab open.<br>MAYA writes for yours.</b>
 </p>
 
----
+## TL;DR (we know you scrolled straight here)
 
-## ⚡ TL;DR (we know you scrolled straight here)
+MAYA is an ADHD-friendly explainer for Claude. Ask it about a concept, a chunk of code, an error message, a research paper or a how-to, and you get an explanation you can start, follow, and find your place in again after you drift off.
 
-MAYA is a free skill for Claude. It changes **how** Claude explains things, so you can actually **start** them, **follow** them, and **come back** to them.
+The facts and the math stay intact, and the full depth is there whenever you ask for it.
 
-Same facts. Same math. Same depth when you want it. Without the wall of text.
+**[Install it with one command](#install)**
 
-👉 **[Install it with one command](#install)**
-
----
-
-## 😵‍💫 Sound familiar?
+## Sound familiar?
 
 - You open the topic. You see the wall. You close the tab.
 - You ask a yes-or-no question and get a history lesson first.
-- You read the same paragraph three times. Nothing sticks.
+- You read the same paragraph three times and nothing sticks.
 - You get up for water and come back to... what were we doing?
-- You ask for help and get a 5-day plan plus a pep talk, when you needed **one thing to do right now.**
+- You ask for help and get a 5-day plan plus a pep talk, when what you needed was one thing to do right now.
 
-That's not a willpower problem. It's an explanation problem. MAYA fixes the explanation.
+Getting stuck has more than one cause. Sometimes the topic is too big, sometimes a piece of background is missing, sometimes the material is unclear, and sometimes you're just tired. MAYA reads which one it is from what you say. A tired brain gets one small piece and a clear place to stop. A missing basic gets taught in a few sentences before the explanation carries on. You won't get a lecture about focus.
 
----
-
-## 🪄 See the difference
+## See the difference
 
 <p align="center">
   <img src="assets/before-after.svg" alt="Before and after. A typical AI answer to 'I can't start studying' is a wall of text with a five-day plan and a pep talk. MAYA gives one five-minute step." width="100%">
@@ -57,49 +51,51 @@ That's not a willpower problem. It's an explanation problem. MAYA fixes the expl
 >
 > Send me that list and we'll turn it into a short plan for the days you have, starting with the topic the others build on. That's the whole first step.
 
-No roadmap. No lecture. No "you've got this." Just something you can do right now.
+MAYA still makes a plan. It makes it after the first step, out of what that step turned up.
 
 </details>
 
----
+## What MAYA does differently
 
-## ✨ What MAYA does differently
+**Your answer comes first.** It's in the opening sentence, so you don't have to dig for it in paragraph four.
 
-🎯 **Answer first.** Your answer is in the first sentence, not buried in paragraph four.
+**Each chunk holds one idea** and opens with a bold line that states it, which makes skimming work.
 
-🧩 **One idea at a time.** Every chunk opens with a bold line that says its point, so skimming actually works.
+**It keeps track of things for you.** A term gets explained where it first shows up, and a symbol gets a quick reminder when it comes back, so you never have to scroll up to remember what "r" was.
 
-🧠 **It holds things so your brain doesn't have to.** Terms are explained right where they show up. Symbols get re-explained when they come back. No scrolling up to remember what "r" was.
+**It stops at a natural break.** Each answer ends with at most one suggested next step.
 
-🛑 **It knows when to stop.** Every answer ends with one clear next step. Never a menu of seven options.
+**The hard parts stay in.** Math, code, caveats and the real terminology are all still there, laid out so they're easier to take in. If an analogy helps, MAYA tells you where it stops matching the real thing.
 
-🔬 **It keeps the hard stuff.** Math, code, caveats, real terminology: still there. Easier to take in, never watered down.
+**If you just need the answer, you get it.** Practice and step-by-step coaching only happen when you ask for them.
 
----
+## It adjusts to what you say
 
-## 🎛️ It reads the room
+Most questions get MAYA's standard explanation: the core idea in a sentence or two, then an example with real numbers or code, then how it actually works, then the one catch that would trip you up. Some things you say shift it into a different mode:
 
 <p align="center">
   <img src="assets/modes.svg" alt="Six modes: Start, Quick, Deep, Practice, Research and Resume, each triggered by what you say." width="100%">
 </p>
 
-No settings. No commands. No picking a mode. MAYA picks up on how you're doing from what you type, and shifts when you do. Frozen at the start, then curious three messages later? It follows you.
+There are no settings or commands, and you never pick a mode. If you start out frozen and get curious three messages later, MAYA switches with you.
 
----
+## Explain it for someone else
 
-## 🙅 Things MAYA will never say to you
+Say *"explain this to my manager"*, *"for my mom"* or *"like I'm 10"* and MAYA changes the vocabulary, the examples and what it emphasizes. The facts stay the same, so the manager version and the engineer version of an explanation always agree.
+
+Plain "ELI5" gets everyday words and concrete examples written for an intelligent adult. Baby talk is saved for when the reader really is a kid.
+
+## Things MAYA will never say to you
 
 <p align="center">
-  <img src="assets/banned.svg" alt="Banned phrases: Great question! You've got this! Does that make sense? Here's a 5-day plan. Just focus harder. Let me know if you have any questions!" width="100%">
+  <img src="assets/banned.svg" alt="Banned phrases: Great question! You've got this! Does that make sense? Obviously, it's simple. Just focus harder. Let me know if you have any questions!" width="100%">
 </p>
 
-Also: no baby talk, no lectures about discipline, and it **won't bring up ADHD unless you do.** You're an intelligent adult. MAYA treats you like one.
-
----
+It won't open with a five-day plan or a list of options to choose from, and it won't bring up ADHD unless you do. MAYA works the same way whether or not you've ever mentioned it, so you get the help without the label.
 
 <a id="install"></a>
 
-## 🚀 Install (one command, promise)
+## Install
 
 **Claude Code on macOS / Linux**
 
@@ -117,37 +113,34 @@ git clone https://github.com/i-am-mushfiq/maya.git "$env:USERPROFILE\.claude\ski
 
 Click **Code → Download ZIP** at the top of this page, then upload the ZIP in your Skills settings.
 
-That's it. You're done. Go get water. (Then come back.)
+Now go get that water. (Then come back.)
 
----
+## How to use it
 
-## 💬 How to use it
-
-You don't have to *do* anything. Talk to Claude like you normally would. Try:
+Talk to Claude the way you normally would. Some things to try:
 
 - *"I have a presentation tomorrow and I can't start."*
 - *"tl;dr what's an APR"*
-- *"Explain recursion, short version"*
+- *"Why am I getting this error?"* + paste it in
+- *"Explain Kubernetes to my manager"*
 - *"Quiz me on photosynthesis"*
 - *"ok I'm back, where were we"*
-- *"Explain this paper"* + paste it in
 
-MAYA kicks in when you ask for an explanation, or when you say you're stuck, overloaded, or picking back up.
+MAYA kicks in when you ask for an explanation, or when you say you're stuck, overloaded or picking back up.
 
----
+It's built for understanding things. It won't plan your week or track your to-do list.
 
-## 🧪 Is this legit?
+## Is this legit?
 
-Short answer: it's built on real research, and we're upfront about the limits.
+Partly, and here's exactly how much.
 
-- **Every rule traces back to research** on ADHD and on how people learn: main point first, small chunks, cutting interesting-but-distracting details, worked examples, recall practice, specific feedback.
-- **Every rule has a receipt.** Each one is rated **Supported**, **Promising** or **Heuristic**, with sources, in [`references/evidence.md`](references/evidence.md).
-- **The honest part:** nobody has studied this exact approach, with an AI, for people with ADHD. MAYA itself hasn't been clinically tested. It's a tool for understanding things, not a treatment.
-- **No stereotypes.** ADHD looks different in everyone. MAYA reacts to what *you* actually say, not to a checklist.
+Most of the rules come from research on ADHD and on how people learn, such as breaking material into small chunks, cutting interesting details that distract from the point, worked examples, recall practice and specific feedback. A few, like putting the answer first, are design practice that hasn't been tested directly. [`references/evidence.md`](references/evidence.md) rates every rule as Supported, Promising or Heuristic and lists the sources.
 
----
+Nobody has studied this exact approach, with an AI, for people with ADHD, so MAYA itself hasn't been clinically tested. It's a tool for understanding things. It isn't a treatment.
 
-## 📦 What's inside
+ADHD also looks different from one person to the next, so MAYA responds to what you actually say instead of working from a checklist.
+
+## What's inside
 
 ```
 maya/
@@ -159,13 +152,11 @@ maya/
     └── topic-playbooks.md    # approaches for math, code, history, papers and more
 ```
 
----
+## Help the next brain find it
 
-## ⭐ Help the next brain find it
+If MAYA saved you from even one wall of text, give it a star. Stars are how the next person with 47 tabs open finds it.
 
-If MAYA saved you from even one wall of text, **give it a star.** That's how the next person with 47 tabs open finds it.
-
-Got a phrase MAYA should ban, or an idea to make it better? **[Open an issue](../../issues).**
+Got a phrase MAYA should ban, or an idea to make it better? [Open an issue](../../issues).
 
 <br>
 

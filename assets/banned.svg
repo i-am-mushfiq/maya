@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img" aria-labelledby="t">
-  <title id="t">Things MAYA will never say to you: Great question! You've got this! Does that make sense? Here's a 5-day plan. Just focus harder. Let me know if you have any questions!</title>
+  <title id="t">Things MAYA will never say to you: Great question! You've got this! Does that make sense? Obviously, it's simple. Just focus harder. Let me know if you have any questions!</title>
   <style>
     text{font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif}
     .q{font-size:27px;font-weight:800;fill:#1F1B3A}
@@ -31,10 +31,10 @@
   <!-- row 2 -->
   <g transform="rotate(2 225 335)">
     <rect x="70" y="278" width="330" height="116" rx="10" fill="#C6F2E5"/>
-    <text x="235" y="330" class="q" text-anchor="middle">"Here's a</text>
-    <text x="235" y="364" class="q" text-anchor="middle">5-day plan..."</text>
-    <path class="x" d="M166 321 q35 3 70 -1 t70 1"/>
-    <path class="x" d="M146 355 q45 -3 90 1 t90 -1"/>
+    <text x="235" y="330" class="q" text-anchor="middle">"Obviously,</text>
+    <text x="235" y="364" class="q" text-anchor="middle">it's simple."</text>
+    <path class="x" d="M156 321 q40 3 80 -1 t80 1"/>
+    <path class="x" d="M156 355 q40 -3 80 1 t80 -1"/>
   </g>
   <g transform="rotate(-2 600 335)">
     <rect x="435" y="278" width="330" height="116" rx="10" fill="#E2D9FF"/>
